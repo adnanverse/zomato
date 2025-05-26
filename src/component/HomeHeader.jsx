@@ -31,11 +31,11 @@ let  openmenu= ()=>{
             </ul>
         </div>
         </nav>
-        <div className='max-w-[776px] py-10   mx-auto'>
-            <div className='max-w-[280px] mx-auto'>
+        <div className='max-w-[776px] py-10  tablet:px-0 px-4  mx-auto'>
+            <div className=' largemob:w-[280px] w-[200px] mx-auto'>
                 <img src={whitelogo} width='100%' alt="" />
             </div>
-            <p className='text-center py-6 text-[38px] text-white'>
+            <p className='text-center py-6  largemob:text-[38px] text-[30px] text-white'>
             Discover the best food & drinks in Jodhpur
             </p>
             <div className=' rounded-lg tablet:flex-row gap-5 tablet:gap-0 flex-col tablet:bg-white  flex ]'> 
